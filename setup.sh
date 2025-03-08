@@ -24,7 +24,7 @@ case $2 in
         ;;
 esac
 
-$install_method gcc clang unzip zip vim cmake make ripgrep git npm $tiling_wm
+$install_method gcc clang unzip zip vim cmake make ripgrep npm $tiling_wm
 if [$tiling_wm != ""]; then
     source wm.sh
 fi
